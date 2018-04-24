@@ -353,6 +353,11 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+function smoothScroll(href){
+  document.querySelector(href).scrollIntoView({
+  behavior: 'smooth'
+});
+}
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <!--
