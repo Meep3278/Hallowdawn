@@ -35,7 +35,7 @@ body, html {
       <a onclick="smoothScroll('#about')" class="w3-bar-item w3-button">ABOUT</a>
       <a onclick="smoothScroll('#team')" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
       <a onclick="smoothScroll('#work')" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
-      <a onclick="smoothScroll('#pricing')" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a onclick="smoothScroll('#pricing')" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> CAMP PRICING</a>
       <a onclick="smoothScroll('#contact')" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -49,11 +49,11 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a onclick="smoothScroll('#about')" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a onclick="smoothScroll('#team')" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a onclick="smoothScroll('#work')" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a onclick="smoothScroll('#pricing')" onclick="w3_close()" class="w3-bar-item w3-button">CAMP PRICING</a>
+  <a onclick="smoothScroll('#contact')" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
 <!-- Header with full-height image -->
@@ -255,9 +255,9 @@ body, html {
 <!-- Pricing Section -->
 <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
   <h3>PRICING</h3>
-  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+  <p class="w3-large">Choose a pricing plan that fits your needs. We don't want anyone to not be able to attend due to not having the resources to.</p>
   <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-center-third">
+    <div class="w3-second-third">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-red w3-xlarge w3-padding-48">Camp Pricing</li>
         <li class="w3-padding-16"><b>5</b> Lunches</li>
@@ -265,7 +265,7 @@ body, html {
         <li class="w3-padding-16"><b>5</b> Snacks</li>
         <li class="w3-padding-16"><b>1</b> Amazing Experience</li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 350 (or $300 per kid for multiple)</h2>
+          <h2 class="w3-wide">$ 350 (or $300 per kid for multiple) until the end of March, $400 after</h2>
           <span class="w3-opacity">For One Week of Camp</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
@@ -283,7 +283,7 @@ body, html {
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-half">
       <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Palo Alto, California</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (650)-441-6432</p>
       <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: zevgoldhabergordon@gmail.com</p>
       <br>
       <form action="/action_page.php" target="_blank">
